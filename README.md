@@ -3,7 +3,7 @@
 
 ## Minimal system requirements
 * Java 8
-* Apache Maven 4.0.0
+* Apache Maven 3.5
 * docker 18.09.0
 * docker-compose 1.23.1
 * Vagrant 2.2.2
