@@ -6,6 +6,7 @@
 * Apache Maven 4.0.0
 * docker 18.09.0
 * docker-compose 1.23.1
+* Vagrant 2.2.2
 
 ## How to start
 
@@ -34,3 +35,9 @@ Before run, please fill your keys.
 In folder grafana-data is located volume with configured dashboard and connection to elasticsearch.
    
 
+# Run it in vagrant
+
+```vagrant plugin install vagrant-docker-compose```
+```vagrant up```
+
+You may see result on `127.0.0.1:8082`

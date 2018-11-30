@@ -28,5 +28,6 @@ services:
     image: grafana/grafana:5.3.4
     ports:
     - 3000:3000
-    volumes:
-    - ./grafana-data:/var/lib/grafana
+    # https://github.com/grafana/grafana/issues/13188
+#    volumes:
+#    - ./grafana-data:/var/lib/grafana

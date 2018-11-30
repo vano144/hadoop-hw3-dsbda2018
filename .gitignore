@@ -4,3 +4,5 @@ target
 *.iml
 esdata/
 grafana-data/
+nohup.out
+.vagrant/
