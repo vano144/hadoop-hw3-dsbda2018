@@ -27,5 +27,10 @@ Before run, please fill your keys.
 * Run it
 
   ```bash run.sh```
+  
+
+# Grafana volume
+
+In folder grafana-data is located volume with configured dashboard and connection to elasticsearch.
    
 
